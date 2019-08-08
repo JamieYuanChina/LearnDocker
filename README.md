@@ -11,7 +11,7 @@ sudo apt-get install docker-ce
 #systemctl enable docker   
 #systemctl start docker   
 3、更换镜像源：   
-# vi /etc/docker/daemon.json   
+#vi /etc/docker/daemon.json   
 {   
 "registry-mirrors": ["http://hub-mirror.c.163.com"]   
 }   
